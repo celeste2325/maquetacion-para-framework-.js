@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Maquetación para el master en frameworks javascript</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="center">
+            <div id="logo">
+                <img src="asset/images/vue.png" alt="LogoTipo" class="app-logo">
+                <span id="marca">
+                    <strong>Curso</strong>Vue
+                </span>
+            </div>
+
+            <!-- Menu -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="formulario.html">Formulario</a></li>
+                    <li><a href="#">Página 1</a></li>
+                    <li><a href="#">Página 2</a></li>
+                </ul>
+            </nav>
+            <!-- /Menu -->
+
+            <!-- limpiar flotado -->
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="center">
+        <section id="content">
+            <h1 class="subheader">Formulario</h1>
+            <form action="" class="mid-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido">
+                </div>
+
+                <div class="form-group">
+                    <label for="biografia">Biografia</label>
+                    <textarea name="bio"></textarea>
+                </div>
+
+                <div class="form-group radiobuttons">
+                    <input type="radio" name="genero" value="hombre">Hombre
+                    <input type="radio" name="genero" value="mujer">Mujer
+                    <input type="radio" name="genero" value="otro">Otro
+                </div>
+                <div class="clearfix"></div>
+                <input type="submit" value="enviar" class="btn btn-success">
+            </form>
+
+        </section>
+        <!-- aside se usa para las barras laterales -->
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Puedes hacer esto</h3>
+                <p>Encuentra el artículo que buscas</p>
+                <a href="#" class="btn btn-success">Crear artículo</a>
+            </div>
+
+            <div id="search" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el artículo que buscas</p>
+                <form>
+                    <input type="text" name="search">
+                    <input type="submit" name="submit" value="buscar" class="btn">
+                </form>
+            </div>
+        </aside>
+        <!-- limpiar flotado -->
+        <div class="clearfix"></div>
+
+    </div>
+
+    <footer id="footer">
+        <div class="center">
+            <p>&copy; Máster en Frameworks para JavaScript</p>
+        </div>
+    </footer>
+</body>
+
+</html>
